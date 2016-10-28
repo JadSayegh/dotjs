@@ -1,0 +1,80 @@
+{% load staticfiles %}
+
+<!-- bootstrap CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
+
+<!-- Social buttons bootstrap CSS -->
+<link rel="stylesheet" href="{% static 'lib/bootstrap-social.css' %}">
+
+<!-- Slick Carousel CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+
+
+
+  
+
+  <style>
+	body {
+		background-color : #bd6e55;
+	} 
+
+	.panes{
+		padding: 0;
+	    list-style:none;
+	    position:relative;
+	    width:500%; /* Number of panes * 100% */
+	    overflow:hidden; /* This is used solely to clear floats, it does not add functionality. */
+	        
+	    -moz-animation:carousel 10s infinite;
+	    -webkit-animation:carousel 10s infinite;
+	    animation:carousel 10s infinite;
+	}
+
+
+	.panes > li{
+	    position:relative;
+	    float:left;
+	    width:20%; /* 100 / number of panes */
+	}
+	.carousel{
+    overflow:hidden;
+    width:450px;
+    margin: auto;
+}
+	.carousel img{
+	    display:block;
+	    width:100%;
+	    max-width:100%;
+	}
+	.carousel h2{
+	    font-size:1em;
+	    padding:0.5em;
+	    position:absolute;
+	    right:10px;
+	    bottom:10px;
+	    left:10px;
+	    text-align:right;
+	    color:#fff;
+	    background-color:rgba(0,0,0,0.75);
+	}
+
+	/* Blog Posts */
+
+	.blog-post p{
+		text-align : justify;
+	}
+
+	.code {
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-top: 30px !important;
+    	margin-bottom: 30px !important;
+		overflow: scroll;
+		max-height: 300px
+	}
+
+  </style>  
