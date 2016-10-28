@@ -12,11 +12,6 @@ export default class Home extends Component {
         </p>
         <br/>
         <br/>
-
-        <div>
-          <MyCarousel />
-        </div>
-        
         <div>
             <BSCarousel />
         </div>
