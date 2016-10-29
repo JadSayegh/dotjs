@@ -30,7 +30,6 @@ class Page extends Component {
     	  <div>
     	  <NavBar/>
         <div>
-
           			{this.props.children}
         </div>
     	  </div>

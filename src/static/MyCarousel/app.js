@@ -78,13 +78,6 @@ render(){
             and Django Rest-Framework in the backend.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img width={900} height={500} alt="900x500" src="/media/profile/profile_pic.png"/>
-          <Carousel.Caption style={captionSyle}>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
       </Carousel>
     );
   }
