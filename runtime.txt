@@ -1,2 +1,1 @@
-# used by Heroku to determine python runtime
 python-3.5.2
