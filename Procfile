@@ -1,1 +1,1 @@
-web: gunicorn dotjs.wsgi --log-file -
+web: gunicorn src.dotjs.wsgi --log-file -
